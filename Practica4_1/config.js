@@ -5,8 +5,9 @@ import { getDatabase } from 'firebase/database';
 // https://firebase.google.com/docs/web/setup#available-libraries
 
 // Your web app's Firebase configuration
+// AIzaSyCdZ6zjGfMK29
 const firebaseConfig = {
-    apiKey: "AIzaSyCdZ6zjGfMK29WJrsyHGuiXqFOpftS80ck",
+    //apiKey: " WJrsyHGuiXqFOpftS80ck",
     authDomain: "app-robles4.firebaseapp.com",
     projectId: "app-robles4",
     storageBucket: "app-robles4.firebasestorage.app",
@@ -16,5 +17,6 @@ const firebaseConfig = {
 
 // Initialize Firebase
 const app = initializeApp(firebaseConfig);
+
 
 export const db = getDatabase(app);
