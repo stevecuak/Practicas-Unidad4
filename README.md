@@ -7,3 +7,5 @@ Todas las practicas utilizan el SDK 51 de Expo.
 Instalar las librerias con: npm install
 
 Ejecutar con: npm run start ó npx expo start
+
+Tambien debe cambiarse la apiKey para conectarse a Firebase.
